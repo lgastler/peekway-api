@@ -1,0 +1,33 @@
+{
+  "name": "peekway-api",
+  "private": true,
+  "version": "0.0.1",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "vitest",
+    "test:ui": "vitest --ui",
+    "test:run": "vitest run",
+    "coverage": "vitest run --coverage",
+    "dev": "wrangler dev src/index.ts",
+    "deploy": "wrangler publish --minify src/index.ts"
+  },
+  "author": "Lennart Gastler",
+  "license": "MIT",
+  "dependencies": {
+    "date-fns": "^2.30.0",
+    "hono": "^3.1.8",
+    "openapi-fetch": "^0.1.2",
+    "zod": "^3.21.4"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20230419.0",
+    "@total-typescript/ts-reset": "^0.4.2",
+    "@vitest/ui": "^0.31.0",
+    "esbuild": "^0.17.18",
+    "miniflare": "^2.14.0",
+    "openapi-typescript": "^6.2.4",
+    "vitest": "^0.31.0",
+    "vitest-environment-miniflare": "^2.14.0",
+    "wrangler": "^2.19.0"
+  }
+}

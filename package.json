@@ -23,7 +23,7 @@
     "@cloudflare/workers-types": "^4.20230511.0",
     "@total-typescript/ts-reset": "^0.4.2",
     "@vitest/ui": "^0.31.0",
-    "esbuild": "^0.17.18",
+    "esbuild": "^0.17.19",
     "miniflare": "^2.14.0",
     "openapi-typescript": "^6.2.4",
     "vitest": "^0.31.0",

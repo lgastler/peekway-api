@@ -9,7 +9,7 @@
     "test:run": "vitest run",
     "coverage": "vitest run --coverage",
     "dev": "wrangler dev src/index.ts",
-    "deploy": "wrangler publish --minify src/index.ts"
+    "deploy": "wrangler deploy --minify src/index.ts"
   },
   "author": "Lennart Gastler",
   "license": "MIT",

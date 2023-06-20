@@ -16,17 +16,17 @@
   "dependencies": {
     "date-fns": "^2.30.0",
     "hono": "^3.2.5",
-    "openapi-fetch": "^0.2.1",
+    "openapi-fetch": "^0.3.0",
     "zod": "^3.21.4"
   },
   "devDependencies": {
     "@cloudflare/workers-types": "^4.20230518.0",
     "@total-typescript/ts-reset": "^0.4.2",
-    "@vitest/ui": "^0.32.0",
-    "esbuild": "^0.18.2",
+    "@vitest/ui": "^0.32.2",
+    "esbuild": "^0.18.5",
     "miniflare": "^3.0.1",
-    "openapi-typescript": "^6.2.7",
-    "vitest": "^0.32.0",
+    "openapi-typescript": "^6.2.8",
+    "vitest": "^0.32.2",
     "vitest-environment-miniflare": "^2.14.0",
     "wrangler": "^3.1.0"
   }

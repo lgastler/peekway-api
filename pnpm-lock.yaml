@@ -5,8 +5,8 @@ dependencies:
     specifier: ^2.30.0
     version: 2.30.0
   hono:
-    specifier: ^3.2.5
-    version: 3.2.5
+    specifier: ^3.2.6
+    version: 3.2.6
   openapi-fetch:
     specifier: ^0.4.0
     version: 0.4.0
@@ -28,8 +28,8 @@ devDependencies:
     specifier: ^0.18.6
     version: 0.18.6
   miniflare:
-    specifier: ^3.0.1
-    version: 3.0.1
+    specifier: ^3.0.2
+    version: 3.0.2
   openapi-typescript:
     specifier: ^6.2.8
     version: 6.2.8
@@ -1468,8 +1468,8 @@ packages:
     resolution: {integrity: sha512-lkX1HJXwyMcprw/5YUZc2s7DrpAiHB21/V+E1rHUrVNokkvB6bqMzT0VfV6/86ZNabt1k14YOIaT7nDvOX3Iiw==}
     dev: true
 
-  /hono@3.2.5:
-    resolution: {integrity: sha512-saAKnPNGXO3vLq198IJO6ZwunQyXOYj6FkAZS08pBNKXn34lF9b7vb/pdyTrQWv3WvUPFjGCQfDyUjMhcubAMw==}
+  /hono@3.2.6:
+    resolution: {integrity: sha512-jUf9SgkTW/H3Pd9oPwFgf3j05RXUbILWm96WlHll56t2Jkv8tVXyfLeBzYwdTzB7JE/hx+DWMXrVJ06UdfcKng==}
     engines: {node: '>=16.0.0'}
     dev: false
 
@@ -1627,8 +1627,8 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /miniflare@3.0.1:
-    resolution: {integrity: sha512-aLOB8d26lOTn493GOv1LmpGHVLSxmeT4MixPG/k3Ze10j0wDKnMj8wsFgbZ6Q4cr1N4faf8O3IbNRJuQ+rLoJA==}
+  /miniflare@3.0.2:
+    resolution: {integrity: sha512-tSwmK+JPwHsV2KR7/dSZFGtTF/2M30OShjPDY7e5lAxyGE8SkHqXn/ckjg2TVltc9B8rXCSffMnCfYW1pH7R4A==}
     engines: {node: '>=16.13'}
     dependencies:
       acorn: 8.8.2
@@ -1641,7 +1641,7 @@ packages:
       kleur: 4.1.5
       source-map-support: 0.5.21
       stoppable: 1.1.0
-      undici: 5.22.0
+      undici: 5.22.1
       workerd: 1.20230512.0
       ws: 8.13.0
       youch: 3.2.3
@@ -2151,13 +2151,6 @@ packages:
       busboy: 1.6.0
     dev: true
 
-  /undici@5.22.0:
-    resolution: {integrity: sha512-fR9RXCc+6Dxav4P9VV/sp5w3eFiSdOjJYsbtWfd4s5L5C4ogyuVpdKIVHeW0vV1MloM65/f7W45nR9ZxwVdyiA==}
-    engines: {node: '>=14.0'}
-    dependencies:
-      busboy: 1.6.0
-    dev: true
-
   /undici@5.22.1:
     resolution: {integrity: sha512-Ji2IJhFXZY0x/0tVBXeQwgPlLWw13GVzpsWPQ3rV50IFMMof2I55PZZxtm4P6iNq+L5znYN9nSTAq0ZyE6lSJw==}
     engines: {node: '>=14.0'}
@@ -2363,7 +2356,7 @@ packages:
       blake3-wasm: 2.1.5
       chokidar: 3.5.3
       esbuild: 0.16.3
-      miniflare: 3.0.1
+      miniflare: 3.0.2
       nanoid: 3.3.6
       path-to-regexp: 6.2.1
       selfsigned: 2.1.1

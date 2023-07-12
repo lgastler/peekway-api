@@ -15,19 +15,19 @@
   "license": "MIT",
   "dependencies": {
     "date-fns": "^2.30.0",
-    "hono": "^3.2.7",
+    "hono": "^3.3.0",
     "openapi-fetch": "^0.6.1",
     "zod": "^3.21.4"
   },
   "devDependencies": {
-    "@cloudflare/workers-types": "^4.20230628.0",
+    "@cloudflare/workers-types": "^4.20230710.0",
     "@total-typescript/ts-reset": "^0.4.2",
     "@vitest/ui": "^0.33.0",
     "esbuild": "^0.18.11",
-    "miniflare": "^3.20230628.0",
-    "openapi-typescript": "^6.3.2",
+    "miniflare": "^3.20230710.0",
+    "openapi-typescript": "^6.3.4",
     "vitest": "^0.33.0",
     "vitest-environment-miniflare": "^2.14.0",
-    "wrangler": "^3.1.2"
+    "wrangler": "^3.2.0"
   }
 }

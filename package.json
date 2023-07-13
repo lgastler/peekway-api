@@ -20,10 +20,10 @@
     "zod": "^3.21.4"
   },
   "devDependencies": {
-    "@cloudflare/workers-types": "^4.20230710.0",
+    "@cloudflare/workers-types": "^4.20230710.1",
     "@total-typescript/ts-reset": "^0.4.2",
     "@vitest/ui": "^0.33.0",
-    "esbuild": "^0.18.11",
+    "esbuild": "^0.18.12",
     "miniflare": "^3.20230710.0",
     "openapi-typescript": "^6.3.4",
     "vitest": "^0.33.0",

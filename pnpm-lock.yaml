@@ -5,8 +5,8 @@ dependencies:
     specifier: ^2.30.0
     version: 2.30.0
   hono:
-    specifier: ^3.7.0
-    version: 3.7.0
+    specifier: ^3.7.1
+    version: 3.7.1
   openapi-fetch:
     specifier: ^0.7.6
     version: 0.7.6
@@ -31,8 +31,8 @@ devDependencies:
     specifier: ^3.20230918.0
     version: 3.20230918.0
   openapi-typescript:
-    specifier: ^6.6.1
-    version: 6.6.1
+    specifier: ^6.6.2
+    version: 6.6.2
   vitest:
     specifier: ^0.34.5
     version: 0.34.5(@vitest/ui@0.34.5)
@@ -1134,8 +1134,8 @@ packages:
     resolution: {integrity: sha512-lkX1HJXwyMcprw/5YUZc2s7DrpAiHB21/V+E1rHUrVNokkvB6bqMzT0VfV6/86ZNabt1k14YOIaT7nDvOX3Iiw==}
     dev: true
 
-  /hono@3.7.0:
-    resolution: {integrity: sha512-tqhUslEbdAyWCU1a2jeoytwdmS971eIoB3IklTZRVQz+SjSyOQixrkp5CVw7chYwanYE3UMEyr/uAR2HOuMdhw==}
+  /hono@3.7.1:
+    resolution: {integrity: sha512-S6XiX1wr2mj6zo1HNkmAJ3vVkHTsMMQuAN9W3gDj7vKCf3Kc8/zfdrUHJKkzIz9fknibznfgPWDOKkt5Ae+3EQ==}
     engines: {node: '>=16.0.0'}
     dev: false
 
@@ -1354,8 +1354,8 @@ packages:
     resolution: {integrity: sha512-r5Z4tlGa2l6jYO1ENT9Giqo/ZWzWPmsYUR41O01kjYr7vg4iBFaMh0W0g8Ef72SpeU2F+TY6CAdKxTv7aq+WXA==}
     dev: false
 
-  /openapi-typescript@6.6.1:
-    resolution: {integrity: sha512-jx7bzR6FfkG21icjikrF0k6K8moNg93PuZlfc+zo4Enxwmyw6vAUh4Rl064JN35um/RV8ZX7ANnMrQW8gRsGsQ==}
+  /openapi-typescript@6.6.2:
+    resolution: {integrity: sha512-UWeaFmRpiEFAx+LMHhEGs51pXjjToqauUTJOU0ad1RrivCO+mlerUwe2MAxOWDBnqU05UtkGndyij97sbImXuA==}
     hasBin: true
     dependencies:
       ansi-colors: 4.1.3

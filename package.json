@@ -20,14 +20,14 @@
     "zod": "^3.22.2"
   },
   "devDependencies": {
-    "@cloudflare/workers-types": "^4.20230914.0",
+    "@cloudflare/workers-types": "^4.20230922.0",
     "@total-typescript/ts-reset": "^0.5.1",
     "@vitest/ui": "^0.34.5",
     "esbuild": "^0.19.3",
-    "miniflare": "^3.20230918.0",
-    "openapi-typescript": "^6.6.2",
+    "miniflare": "^3.20230922.0",
+    "openapi-typescript": "^6.7.0",
     "vitest": "^0.34.5",
     "vitest-environment-miniflare": "^2.14.1",
-    "wrangler": "^3.9.0"
+    "wrangler": "^3.10.0"
   }
 }

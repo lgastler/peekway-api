@@ -5,11 +5,11 @@ dependencies:
     specifier: ^2.30.0
     version: 2.30.0
   hono:
-    specifier: ^3.7.2
-    version: 3.7.2
+    specifier: ^3.7.3
+    version: 3.7.3
   openapi-fetch:
-    specifier: ^0.7.6
-    version: 0.7.6
+    specifier: ^0.7.8
+    version: 0.7.8
   zod:
     specifier: ^3.22.2
     version: 3.22.2
@@ -1140,8 +1140,8 @@ packages:
     resolution: {integrity: sha512-lkX1HJXwyMcprw/5YUZc2s7DrpAiHB21/V+E1rHUrVNokkvB6bqMzT0VfV6/86ZNabt1k14YOIaT7nDvOX3Iiw==}
     dev: true
 
-  /hono@3.7.2:
-    resolution: {integrity: sha512-5SWYrAQJlfjHggcDTnmKZd5zlUEXmoUiBjnmL6C1W8MX39/bUw6ZIvfEJZgpo7d7Z/vCJ5FRfkjIQPRH5yV/dQ==}
+  /hono@3.7.3:
+    resolution: {integrity: sha512-BQHdLPXb30hQ9k+04byeSi4QMHk20U1GUq0nT5kGUCGZtxeYhAS7mUJ1wgjn4SCvgiw1rcc6oBOAlwJQ7jQymA==}
     engines: {node: '>=16.0.0'}
     dev: false
 
@@ -1350,14 +1350,14 @@ packages:
       mimic-fn: 4.0.0
     dev: true
 
-  /openapi-fetch@0.7.6:
-    resolution: {integrity: sha512-TmHTmzMqNmVUlRasfaSVsOYnFHHu0L31VGxbk75rk9P7RfOj70kc+Tiuu548koOpB5zs8yiUwW5wsYjeQifHcA==}
+  /openapi-fetch@0.7.8:
+    resolution: {integrity: sha512-3kSaR+GQFwvPude2+hqxy6FTx6np6lcyn9pHUwhTyf11wW1uqHD5dLQACcWM1psw5KZN9Hp8qkPeOAuxU8eDbw==}
     dependencies:
-      openapi-typescript-helpers: 0.0.2
+      openapi-typescript-helpers: 0.0.3
     dev: false
 
-  /openapi-typescript-helpers@0.0.2:
-    resolution: {integrity: sha512-r5Z4tlGa2l6jYO1ENT9Giqo/ZWzWPmsYUR41O01kjYr7vg4iBFaMh0W0g8Ef72SpeU2F+TY6CAdKxTv7aq+WXA==}
+  /openapi-typescript-helpers@0.0.3:
+    resolution: {integrity: sha512-lGTzd0j8yx7UX2IPm891SnnUIdFPpIT0Nxea8pic+ff+gK7fBr0VpdG7yzdcBD3afZcKfYTOiwqLBgRK8j1tqw==}
     dev: false
 
   /openapi-typescript@6.7.0:

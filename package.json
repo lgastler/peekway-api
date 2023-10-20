@@ -16,7 +16,7 @@
   "dependencies": {
     "date-fns": "^2.30.0",
     "hono": "^3.8.1",
-    "openapi-fetch": "^0.7.10",
+    "openapi-fetch": "^0.8.0",
     "zod": "^3.22.4"
   },
   "devDependencies": {
@@ -28,6 +28,6 @@
     "openapi-typescript": "^6.7.0",
     "vitest": "^0.34.6",
     "vitest-environment-miniflare": "^2.14.1",
-    "wrangler": "^3.13.2"
+    "wrangler": "^3.14.0"
   }
 }

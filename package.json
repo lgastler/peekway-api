@@ -15,8 +15,8 @@
   "license": "MIT",
   "dependencies": {
     "date-fns": "^2.30.0",
-    "hono": "^3.8.1",
-    "openapi-fetch": "^0.8.0",
+    "hono": "^3.8.3",
+    "openapi-fetch": "^0.8.1",
     "zod": "^3.22.4"
   },
   "devDependencies": {

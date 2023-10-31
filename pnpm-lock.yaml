@@ -5,8 +5,8 @@ dependencies:
     specifier: ^2.30.0
     version: 2.30.0
   hono:
-    specifier: ^3.9.0
-    version: 3.9.0
+    specifier: ^3.9.1
+    version: 3.9.1
   openapi-fetch:
     specifier: ^0.8.1
     version: 0.8.1
@@ -1140,8 +1140,8 @@ packages:
     resolution: {integrity: sha512-lkX1HJXwyMcprw/5YUZc2s7DrpAiHB21/V+E1rHUrVNokkvB6bqMzT0VfV6/86ZNabt1k14YOIaT7nDvOX3Iiw==}
     dev: true
 
-  /hono@3.9.0:
-    resolution: {integrity: sha512-MSGmerYD69jwDkBa631lY7y3xtEwbKFg2huFZ0TruzCdfJlmPd/rFzyvmMheePKsiA7CZp/KqL3mflBOzEmjLA==}
+  /hono@3.9.1:
+    resolution: {integrity: sha512-z3nM9CjNZ8PRAH6NNntk4ESKW2POEbGanhK1QpYdQ1MOYRzZPSEE8B5mqw8bYEPa7qIQxX0vtlv7XOxtwFbosg==}
     engines: {node: '>=16.0.0'}
     dev: false
 

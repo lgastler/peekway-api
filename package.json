@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.1",
   "main": "src/index.ts",
+  "type": "module",
   "scripts": {
     "test": "vitest",
     "test:ui": "vitest --ui",
@@ -15,19 +16,20 @@
   "license": "MIT",
   "dependencies": {
     "date-fns": "^2.30.0",
-    "hono": "^3.10.3",
+    "hono": "^3.11.2",
     "openapi-fetch": "^0.8.2",
     "zod": "^3.22.4"
   },
   "devDependencies": {
     "@cloudflare/workers-types": "^4.20231121.0",
     "@total-typescript/ts-reset": "^0.5.1",
-    "@vitest/ui": "^0.34.6",
+    "@types/node": "^20.10.3",
+    "@vitest/ui": "^1.0.1",
     "esbuild": "^0.19.8",
-    "miniflare": "^3.20231030.1",
-    "openapi-typescript": "^6.7.1",
-    "vitest": "^0.34.6",
+    "miniflare": "^3.20231030.3",
+    "openapi-typescript": "^6.7.2",
+    "vitest": "^1.0.1",
     "vitest-environment-miniflare": "^2.14.1",
-    "wrangler": "^3.17.1"
+    "wrangler": "^3.19.0"
   }
 }

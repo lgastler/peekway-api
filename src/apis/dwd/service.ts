@@ -3,12 +3,12 @@ import { paths } from "./dwd-api";
 import { DataPoint, dataPointSchema } from "../../types";
 import { format } from "date-fns";
 
-const { get } = createClient<paths>({
+const { GET } = createClient<paths>({
   baseUrl: "https://dwd.api.proxy.bund.dev/v30",
 });
 
 export async function getWeeklyForcastDataPoints(stationId: string) {
-  const { data, error } = await get("/stationOverviewExtended", {
+  const { data, error } = await GET("/stationOverviewExtended", {
     params: {
       query: {
         stationIds: [stationId],

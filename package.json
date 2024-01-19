@@ -16,7 +16,7 @@
   "license": "MIT",
   "dependencies": {
     "date-fns": "^3.2.0",
-    "hono": "^3.12.5",
+    "hono": "^3.12.6",
     "openapi-fetch": "^0.8.2",
     "zod": "^3.22.4"
   },
@@ -27,9 +27,9 @@
     "@vitest/ui": "^1.2.1",
     "esbuild": "^0.19.11",
     "miniflare": "^3.20231218.2",
-    "openapi-typescript": "^6.7.3",
+    "openapi-typescript": "^6.7.4",
     "vitest": "^1.2.1",
     "vitest-environment-miniflare": "^2.14.2",
-    "wrangler": "^3.22.5"
+    "wrangler": "^3.23.0"
   }
 }

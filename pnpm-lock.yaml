@@ -9,8 +9,8 @@ dependencies:
     specifier: ^3.2.0
     version: 3.2.0
   hono:
-    specifier: ^3.12.5
-    version: 3.12.5
+    specifier: ^3.12.6
+    version: 3.12.6
   openapi-fetch:
     specifier: ^0.8.2
     version: 0.8.2
@@ -38,8 +38,8 @@ devDependencies:
     specifier: ^3.20231218.2
     version: 3.20231218.2
   openapi-typescript:
-    specifier: ^6.7.3
-    version: 6.7.3
+    specifier: ^6.7.4
+    version: 6.7.4
   vitest:
     specifier: ^1.2.1
     version: 1.2.1(@types/node@20.11.5)(@vitest/ui@1.2.1)
@@ -47,8 +47,8 @@ devDependencies:
     specifier: ^2.14.2
     version: 2.14.2(vitest@1.2.1)
   wrangler:
-    specifier: ^3.22.5
-    version: 3.22.5
+    specifier: ^3.23.0
+    version: 3.23.0
 
 packages:
 
@@ -1298,8 +1298,8 @@ packages:
       function-bind: 1.1.2
     dev: true
 
-  /hono@3.12.5:
-    resolution: {integrity: sha512-oIuZfMGwk/IUIAOW+9/VZhT4g99Wce39GYBs2nhY7386iYFAprI8vF2/+nfXjzlrY+CXGJ0+GxF833nN0oRp2w==}
+  /hono@3.12.6:
+    resolution: {integrity: sha512-nnLMJbBA8k+tW8XD1Xt0BfNmJswppYF2pSOVo5U3DdU72SPYUjFkPg7/Q9KfkNcsrXzxFdJQ00JYjPGancmOOA==}
     engines: {node: '>=16.0.0'}
     dev: false
 
@@ -1533,8 +1533,8 @@ packages:
     resolution: {integrity: sha512-MRffg93t0hgGZbYTxg60hkRIK2sRuEOHEtCUgMuLgbCC33TMQ68AmxskzUlauzZYD47+ENeGV/ElI7qnWqrAxA==}
     dev: false
 
-  /openapi-typescript@6.7.3:
-    resolution: {integrity: sha512-es3mGcDXV6TKPo6n3aohzHm0qxhLyR39MhF6mkD1FwFGjhxnqMqfSIgM0eCpInZvqatve4CxmXcMZw3jnnsaXw==}
+  /openapi-typescript@6.7.4:
+    resolution: {integrity: sha512-EZyeW9Wy7UDCKv0iYmKrq2pVZtquXiD/YHiUClAKqiMi42nodx/EQH11K6fLqjt1IZlJmVokrAsExsBMM2RROQ==}
     hasBin: true
     dependencies:
       ansi-colors: 4.1.3
@@ -2039,8 +2039,8 @@ packages:
       '@cloudflare/workerd-windows-64': 1.20231218.0
     dev: true
 
-  /wrangler@3.22.5:
-    resolution: {integrity: sha512-9ScB/eX5+f8OEA0BHW9+EQDXTVdusZNpAaDu/yY65kJ2ggjehRCFWebz5ZdYSeJojBj7cvwu/skDqDwFAqlDTw==}
+  /wrangler@3.23.0:
+    resolution: {integrity: sha512-mOWPL02/popoF6jjb4TT8au4yvo8VFu6O6/IwcRN74rlgwaGS0XvlkFtbofBGAdDUHAh5DXkuoPNS871mXNuJg==}
     engines: {node: '>=16.17.0'}
     hasBin: true
     dependencies:

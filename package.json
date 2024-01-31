@@ -21,9 +21,9 @@
     "zod": "^3.22.4"
   },
   "devDependencies": {
-    "@cloudflare/workers-types": "^4.20240117.0",
+    "@cloudflare/workers-types": "^4.20240129.0",
     "@total-typescript/ts-reset": "^0.5.1",
-    "@types/node": "^20.11.10",
+    "@types/node": "^20.11.13",
     "@vitest/ui": "^1.2.2",
     "esbuild": "^0.20.0",
     "miniflare": "^3.20231218.4",

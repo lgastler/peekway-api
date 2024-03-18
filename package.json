@@ -15,8 +15,8 @@
   "author": "Lennart Gastler",
   "license": "MIT",
   "dependencies": {
-    "date-fns": "^3.5.0",
-    "hono": "^4.1.0",
+    "date-fns": "^3.6.0",
+    "hono": "^4.1.1",
     "openapi-fetch": "^0.9.3",
     "zod": "^3.22.4"
   },

@@ -9,8 +9,8 @@ dependencies:
     specifier: ^4.1.0
     version: 4.1.0
   hono:
-    specifier: ^4.6.8
-    version: 4.6.8
+    specifier: ^4.6.9
+    version: 4.6.9
   openapi-fetch:
     specifier: ^0.13.0
     version: 0.13.0
@@ -20,14 +20,14 @@ dependencies:
 
 devDependencies:
   '@cloudflare/workers-types':
-    specifier: ^4.20241022.0
-    version: 4.20241022.0
+    specifier: ^4.20241106.0
+    version: 4.20241106.0
   '@total-typescript/ts-reset':
     specifier: ^0.6.1
     version: 0.6.1
   '@types/node':
-    specifier: ^22.8.5
-    version: 22.8.5
+    specifier: ^22.9.0
+    version: 22.9.0
   '@vitest/ui':
     specifier: ^2.1.4
     version: 2.1.4(vitest@2.1.4)
@@ -42,13 +42,13 @@ devDependencies:
     version: 7.4.2(typescript@5.6.3)
   vitest:
     specifier: ^2.1.4
-    version: 2.1.4(@types/node@22.8.5)(@vitest/ui@2.1.4)
+    version: 2.1.4(@types/node@22.9.0)(@vitest/ui@2.1.4)
   vitest-environment-miniflare:
     specifier: ^2.14.4
     version: 2.14.4(vitest@2.1.4)
   wrangler:
-    specifier: ^3.84.0
-    version: 3.84.0(@cloudflare/workers-types@4.20241022.0)
+    specifier: ^3.85.0
+    version: 3.85.0(@cloudflare/workers-types@4.20241106.0)
 
 packages:
 
@@ -126,8 +126,8 @@ packages:
       zod: 3.23.8
     dev: true
 
-  /@cloudflare/workers-types@4.20241022.0:
-    resolution: {integrity: sha512-1zOAw5QIDKItzGatzCrEpfLOB1AuMTwVqKmbw9B9eBfCUGRFNfJYMrJxIwcse9EmKahsQt2GruqU00pY/GyXgg==}
+  /@cloudflare/workers-types@4.20241106.0:
+    resolution: {integrity: sha512-pI4ivacmp+vgNO/siHDsZ6BdITR0LC4Mh/1+yzVLcl9U75pt5DUDCOWOiqIRFXRq6H65DPnJbEPFo3x9UfgofQ==}
     dev: true
 
   /@cspotcode/source-map-support@0.8.1:
@@ -889,7 +889,7 @@ packages:
     resolution: {integrity: sha512-FdU2/8wEd00vIu+MfofLiHcfZWz+uCbE2VTL85KpyYfBsNGAbgRtzFMpOXdoXLqQfRu6MBiRwWpb2FbMrBzi7g==}
     engines: {node: '>=16.13'}
     dependencies:
-      '@cloudflare/workers-types': 4.20241022.0
+      '@cloudflare/workers-types': 4.20241106.0
       '@miniflare/cache': 2.14.4
       '@miniflare/core': 2.14.4
       '@miniflare/d1': 2.14.4
@@ -1149,7 +1149,7 @@ packages:
   /@types/better-sqlite3@7.6.11:
     resolution: {integrity: sha512-i8KcD3PgGtGBLl3+mMYA8PdKkButvPyARxA7IQAd6qeslht13qxb1zzO8dRCtE7U3IoJS782zDBAeoKiM695kg==}
     dependencies:
-      '@types/node': 22.8.5
+      '@types/node': 22.9.0
     dev: true
 
   /@types/estree@1.0.6:
@@ -1159,11 +1159,11 @@ packages:
   /@types/node-forge@1.3.11:
     resolution: {integrity: sha512-FQx220y22OKNTqaByeBGqHWYz4cl94tpcxeFdvBo3wjG6XPBuZ0BNgNZRV5J5TFmmcsJ4IzsLkmGRiQbnYsBEQ==}
     dependencies:
-      '@types/node': 22.8.5
+      '@types/node': 22.9.0
     dev: true
 
-  /@types/node@22.8.5:
-    resolution: {integrity: sha512-5iYk6AMPtsMbkZqCO1UGF9W5L38twq11S2pYWkybGHH2ogPUvXWNlQqJBzuEZWKj/WRH+QTeiv6ySWqJtvIEgA==}
+  /@types/node@22.9.0:
+    resolution: {integrity: sha512-vuyHg81vvWA1Z1ELfvLko2c8f34gyA0zaic0+Rllc5lbCnbSyuvb2Oxpm6TAUAC/2xZN3QGqxBNggD1nNR2AfQ==}
     dependencies:
       undici-types: 6.19.8
     dev: true
@@ -1191,7 +1191,7 @@ packages:
       '@vitest/spy': 2.1.4
       estree-walker: 3.0.3
       magic-string: 0.30.12
-      vite: 5.4.10(@types/node@22.8.5)
+      vite: 5.4.10(@types/node@22.9.0)
     dev: true
 
   /@vitest/pretty-format@2.1.4:
@@ -1233,7 +1233,7 @@ packages:
       sirv: 3.0.0
       tinyglobby: 0.2.10
       tinyrainbow: 1.2.0
-      vitest: 2.1.4(@types/node@22.8.5)(@vitest/ui@2.1.4)
+      vitest: 2.1.4(@types/node@22.9.0)(@vitest/ui@2.1.4)
     dev: true
 
   /@vitest/utils@2.1.4:
@@ -1639,8 +1639,8 @@ packages:
       function-bind: 1.1.2
     dev: true
 
-  /hono@4.6.8:
-    resolution: {integrity: sha512-f+2Ec9JAzabT61pglDiLJcF/DjiSefZkjCn9bzm1cYLGkD5ExJ3Jnv93ax9h0bn7UPLHF81KktoyjdQfWI2n1Q==}
+  /hono@4.6.9:
+    resolution: {integrity: sha512-p/pN5yZLuZaHzyAOT2nw2/Ud6HhJHYmDNGH6Ck1OWBhPMVeM1r74jbCRwNi0gyFRjjbsGgoHbOyj7mT1PDNbTw==}
     engines: {node: '>=16.9.0'}
     dev: false
 
@@ -2252,7 +2252,7 @@ packages:
       builtins: 5.1.0
     dev: true
 
-  /vite-node@2.1.4(@types/node@22.8.5):
+  /vite-node@2.1.4(@types/node@22.9.0):
     resolution: {integrity: sha512-kqa9v+oi4HwkG6g8ufRnb5AeplcRw8jUF6/7/Qz1qRQOXHImG8YnLbB+LLszENwFnoBl9xIf9nVdCFzNd7GQEg==}
     engines: {node: ^18.0.0 || >=20.0.0}
     hasBin: true
@@ -2260,7 +2260,7 @@ packages:
       cac: 6.7.14
       debug: 4.3.7(supports-color@9.4.0)
       pathe: 1.1.2
-      vite: 5.4.10(@types/node@22.8.5)
+      vite: 5.4.10(@types/node@22.9.0)
     transitivePeerDependencies:
       - '@types/node'
       - less
@@ -2273,7 +2273,7 @@ packages:
       - terser
     dev: true
 
-  /vite@5.4.10(@types/node@22.8.5):
+  /vite@5.4.10(@types/node@22.9.0):
     resolution: {integrity: sha512-1hvaPshuPUtxeQ0hsVH3Mud0ZanOLwVTneA1EgbAM5LhaZEqyPWGRQ7BtaMvUrTDeEaC8pxtj6a6jku3x4z6SQ==}
     engines: {node: ^18.0.0 || >=20.0.0}
     hasBin: true
@@ -2304,7 +2304,7 @@ packages:
       terser:
         optional: true
     dependencies:
-      '@types/node': 22.8.5
+      '@types/node': 22.9.0
       esbuild: 0.21.5
       postcss: 8.4.47
       rollup: 4.24.3
@@ -2323,13 +2323,13 @@ packages:
       '@miniflare/shared': 2.14.4
       '@miniflare/shared-test-environment': 2.14.4
       undici: 5.28.4
-      vitest: 2.1.4(@types/node@22.8.5)(@vitest/ui@2.1.4)
+      vitest: 2.1.4(@types/node@22.9.0)(@vitest/ui@2.1.4)
     transitivePeerDependencies:
       - bufferutil
       - utf-8-validate
     dev: true
 
-  /vitest@2.1.4(@types/node@22.8.5)(@vitest/ui@2.1.4):
+  /vitest@2.1.4(@types/node@22.9.0)(@vitest/ui@2.1.4):
     resolution: {integrity: sha512-eDjxbVAJw1UJJCHr5xr/xM86Zx+YxIEXGAR+bmnEID7z9qWfoxpHw0zdobz+TQAFOLT+nEXz3+gx6nUJ7RgmlQ==}
     engines: {node: ^18.0.0 || >=20.0.0}
     hasBin: true
@@ -2354,7 +2354,7 @@ packages:
       jsdom:
         optional: true
     dependencies:
-      '@types/node': 22.8.5
+      '@types/node': 22.9.0
       '@vitest/expect': 2.1.4
       '@vitest/mocker': 2.1.4(vite@5.4.10)
       '@vitest/pretty-format': 2.1.4
@@ -2373,8 +2373,8 @@ packages:
       tinyexec: 0.3.1
       tinypool: 1.0.1
       tinyrainbow: 1.2.0
-      vite: 5.4.10(@types/node@22.8.5)
-      vite-node: 2.1.4(@types/node@22.8.5)
+      vite: 5.4.10(@types/node@22.9.0)
+      vite-node: 2.1.4(@types/node@22.9.0)
       why-is-node-running: 2.3.0
     transitivePeerDependencies:
       - less
@@ -2429,8 +2429,8 @@ packages:
       '@cloudflare/workerd-windows-64': 1.20241022.0
     dev: true
 
-  /wrangler@3.84.0(@cloudflare/workers-types@4.20241022.0):
-    resolution: {integrity: sha512-EA8oh7YQmZ3kD+a5MId9reHKGgXpodmsPWMLriE5gT5YmG9is66n0AA2tyLzQZKZXmgbo6JyGxvCDPcLeb/X0w==}
+  /wrangler@3.85.0(@cloudflare/workers-types@4.20241106.0):
+    resolution: {integrity: sha512-r5YCWUaF4ApLnloNE6jHHgRYdFzYHoajTlC1tns42UzQ2Ls63VAqD3b0cxOqzDUfmlSb3skpmu0B0Ssi3QWPAg==}
     engines: {node: '>=16.17.0'}
     hasBin: true
     peerDependencies:
@@ -2441,7 +2441,7 @@ packages:
     dependencies:
       '@cloudflare/kv-asset-handler': 0.3.4
       '@cloudflare/workers-shared': 0.7.0
-      '@cloudflare/workers-types': 4.20241022.0
+      '@cloudflare/workers-types': 4.20241106.0
       '@esbuild-plugins/node-globals-polyfill': 0.2.3(esbuild@0.17.19)
       '@esbuild-plugins/node-modules-polyfill': 0.2.2(esbuild@0.17.19)
       blake3-wasm: 2.1.5

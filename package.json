@@ -17,19 +17,20 @@
   "dependencies": {
     "date-fns": "^4.1.0",
     "hono": "^4.7.4",
-    "openapi-fetch": "^0.13.4",
+    "openapi-fetch": "^0.13.5",
     "zod": "^3.24.2"
   },
   "devDependencies": {
-    "@cloudflare/workers-types": "^4.20250311.0",
+    "@cloudflare/workers-types": "^4.20250319.0",
     "@total-typescript/ts-reset": "^0.6.1",
     "@types/node": "^22.13.10",
-    "@vitest/ui": "^3.0.8",
+    "@vitest/ui": "^3.0.9",
     "esbuild": "^0.25.1",
-    "miniflare": "^3.20250310.0",
+    "miniflare": "^4.20250317.1",
     "openapi-typescript": "^7.6.1",
-    "vitest": "^3.0.8",
+    "vitest": "^3.0.9",
     "vitest-environment-miniflare": "^2.14.4",
-    "wrangler": "^3.114.1"
-  }
+    "wrangler": "^4.2.0"
+  },
+  "packageManager": "pnpm@10.6.4+sha512.da3d715bfd22a9a105e6e8088cfc7826699332ded60c423b14ec613a185f1602206702ff0fe4c438cb15c979081ce4cb02568e364b15174503a63c7a8e2a5f6c"
 }

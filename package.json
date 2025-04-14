@@ -21,7 +21,7 @@
     "zod": "^3.24.2"
   },
   "devDependencies": {
-    "@cloudflare/workers-types": "^4.20250412.0",
+    "@cloudflare/workers-types": "^4.20250414.0",
     "@total-typescript/ts-reset": "^0.6.1",
     "@types/node": "^22.14.1",
     "@vitest/ui": "^3.1.1",
@@ -32,5 +32,5 @@
     "vitest-environment-miniflare": "^2.14.4",
     "wrangler": "^4.10.0"
   },
-  "packageManager": "pnpm@10.8.0"
+  "packageManager": "pnpm@10.8.1"
 }

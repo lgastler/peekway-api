@@ -16,21 +16,21 @@
   "license": "MIT",
   "dependencies": {
     "date-fns": "^4.1.0",
-    "hono": "^4.8.3",
+    "hono": "^4.9.2",
     "openapi-fetch": "^0.14.0",
-    "zod": "^3.25.71"
+    "zod": "^4.0.17"
   },
   "devDependencies": {
-    "@cloudflare/workers-types": "^4.20250703.0",
+    "@cloudflare/workers-types": "^4.20250821.0",
     "@total-typescript/ts-reset": "^0.6.1",
-    "@types/node": "^24.0.10",
+    "@types/node": "^24.3.0",
     "@vitest/ui": "^3.2.4",
-    "esbuild": "^0.25.5",
-    "miniflare": "^4.20250617.5",
-    "openapi-typescript": "^7.8.0",
+    "esbuild": "^0.25.9",
+    "miniflare": "^4.20250816.0",
+    "openapi-typescript": "^7.9.1",
     "vitest": "^3.2.4",
     "vitest-environment-miniflare": "^2.14.4",
-    "wrangler": "^4.23.0"
+    "wrangler": "^4.31.0"
   },
-  "packageManager": "pnpm@10.12.4"
+  "packageManager": "pnpm@10.15.0"
 }

@@ -16,16 +16,16 @@
   "license": "MIT",
   "dependencies": {
     "date-fns": "^4.1.0",
-    "hono": "^4.11.7",
+    "hono": "^4.11.8",
     "openapi-fetch": "^0.15.0",
     "zod": "^4.3.6"
   },
   "devDependencies": {
-    "@cloudflare/workers-types": "^4.20260205.0",
+    "@cloudflare/workers-types": "^4.20260206.0",
     "@total-typescript/ts-reset": "^0.6.1",
     "@types/node": "^25.2.1",
     "@vitest/ui": "^4.0.18",
-    "esbuild": "^0.27.2",
+    "esbuild": "^0.27.3",
     "miniflare": "^4.20260205.0",
     "openapi-typescript": "^7.10.1",
     "vitest": "^4.0.18",
